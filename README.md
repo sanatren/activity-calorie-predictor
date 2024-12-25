@@ -1,5 +1,6 @@
 # calories-burnt-during-physical ACTIVITY
-
+[click here to run](https://joules.streamlit.app/)
+<h1>Set up in local</h1>
 ML model which predicts calories burnt during physical activity
 
 git clone https://github.com/khemariya/calories-burnt-during-motions
