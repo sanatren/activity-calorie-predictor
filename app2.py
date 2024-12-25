@@ -68,8 +68,7 @@ def main():
     st.header('Random Forest Regressor Prediction:')
     st.write(forest_prediction[0])
 
-    st.header('Linear Regression Prediction:')
-    st.write(regressor_prediction[0])
+    
 
 if __name__ == '__main__':
     main()
