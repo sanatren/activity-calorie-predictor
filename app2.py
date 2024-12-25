@@ -35,7 +35,7 @@ def main():
     }
 
     # Display user input fields
-    duration = st.sidebar.slider('Duration (minutes)', min_value=0, max_value=120, value=example_data['Duration'])
+    duration = st.sidebar.slider('Duration (minutes)', min_value=0, max_value=60, value=example_data['Duration'])
     heart_rate = st.sidebar.slider('Heart Rate', min_value=60, max_value=200, value=example_data['Heart_Rate'])
     body_temp = st.sidebar.slider('Body Temperature', min_value=95.0, max_value=105.0, value=example_data['Body_Temp'])
     gender = st.sidebar.selectbox('Gender', ['Male', 'Female'], index=0 if example_data['Gender'] == 'Male' else 1)
